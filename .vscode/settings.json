@@ -1,0 +1,22 @@
+{
+    "editor.formatOnSave": true,
+    "black-formatter.interpreter": [
+        "/usr/local/bin/python",
+    ],
+    "ruff.enable": true,
+    "ruff.lint.run": "onSave",
+    "ruff.organizeImports": true,
+    "ruff.importStrategy": "useBundled",
+    "ruff.interpreter": [
+        "/usr/local/bin/python",
+    ],
+    "python.defaultInterpreterPath": "/usr/local/bin/python",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+            "source.fixAll": false
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+}
