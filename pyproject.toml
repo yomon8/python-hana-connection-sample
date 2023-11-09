@@ -11,6 +11,7 @@ hdbcli = "^2.18.24"
 pydantic = "^2.4.2"
 pydantic-settings = "^2.0.3"
 pandas = "^2.1.2"
+sqlalchemy-hana = "^0.5.0"
 
 [tool.mypy]
 plugins = [ "pydantic.mypy" ]
